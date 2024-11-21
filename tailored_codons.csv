@@ -1,0 +1,901 @@
+Possible Amino Acids,IUPAC Codons,Description
+/,"TAA, TAG, TAR, TGA, TRA","Stop codon, No hydrophobic, No polar, No positives, No negatives"
+"/,A,G,S",KSA,"Stop codon, No positives, No negatives"
+"/,C,G","KGM, KGW, KGH","Stop codon, No hydrophobic, No polar, No positives, No negatives"
+"/,C,G,R","BGM, BGW, BGH","Stop codon, No hydrophobic, No polar, No negatives"
+"/,D,N,Y,E,K","DAK, DAM, DAS, DAW, DAD, DAH, DAV, DAN","Stop codon, No hydrophobic"
+"/,D,V,Y,E,L,F","KWK, KWM, KWS, KWW, KWB, KWD, KWH, KWV, KWN","Stop codon, No positives"
+"/,D,V,Y,G,E,L,F,C","KDM, KDW, KDH","Stop codon, No positives"
+"/,D,V,Y,G,E,L,F,W,C","KDK, KDS, KDD, KDV, KDN","Stop codon, No positives"
+"/,D,V,Y,S,E,L,F,A","KHK, KHM, KHS, KHW, KHD, KHH, KHV, KHN","Stop codon, No positives"
+"/,D,Y,E","KAK, KAM, KAS, KAW, KAB, KAD, KAH, KAV, KAN","Stop codon, No hydrophobic, No positives"
+"/,D,Y,E,H,Q","BAK, BAM, BAS, BAW, BAD, BAH, BAV, BAN","Stop codon, No hydrophobic"
+"/,D,Y,G,E,C","KRM, KRW, KRH","Stop codon, No hydrophobic, No positives"
+"/,D,Y,G,E,W,C","KRK, KRS, KRB, KRD, KRV, KRN","Stop codon, No positives"
+"/,D,Y,S,E,A","KMK, KMM, KMS, KMW, KMB, KMD, KMH, KMV, KMN","Stop codon, No positives"
+"/,D,Y,S,G,E,A,C","KVM, KVW, KVH","Stop codon, No positives"
+"/,D,Y,S,W,G,E,A,C","KVK, KVS, KVD, KVV, KVN","Stop codon, No positives"
+"/,E","KAA, KAG, KAR","Stop codon, No hydrophobic, No polar, No positives"
+"/,G",KGA,"Stop codon, No hydrophobic, No polar, No positives, No negatives"
+"/,G,E",KRA,"Stop codon, No hydrophobic, No polar, No positives"
+"/,G,E,K,R,Q",NRA,"Stop codon, No hydrophobic"
+"/,G,E,K,R,W,Q","NRG, NRR",Stop codon
+"/,G,E,R,K",DRA,"Stop codon, No hydrophobic, No polar"
+"/,G,E,R,Q",BRA,"Stop codon, No hydrophobic"
+"/,G,E,R,W,K","DRG, DRR","Stop codon, No polar"
+"/,G,E,R,W,Q","BRG, BRR",Stop codon
+"/,G,R","BGA, DGA, NGA","Stop codon, No hydrophobic, No polar, No negatives"
+"/,G,R,W,C","BGD, BGV, BGN","Stop codon, No polar, No negatives"
+"/,K","WAA, WAG, WAR","Stop codon, No hydrophobic, No polar, No negatives"
+"/,K,E","DAA, DAG, DAR","Stop codon, No hydrophobic, No polar"
+"/,K,R,W,Q","HRG, HRR","Stop codon, No negatives"
+"/,L,F,R,C","YKM, YKW, YKH","Stop codon, No polar, No negatives"
+"/,L,F,R,W,C","YKD, YKV, YKN","Stop codon, No polar, No negatives"
+"/,L,F,W,C","TKD, TKV, TKN","Stop codon, No polar, No positives, No negatives"
+"/,L,G,V",KKA,"Stop codon, No polar, No positives, No negatives"
+"/,L,K,M,Q",HWG,"Stop codon, No negatives"
+"/,L,K,M,R,W,Q",HDG,"Stop codon, No negatives"
+"/,L,M,R,W,K",WDG,"Stop codon, No polar, No negatives"
+"/,L,R,W,Q","YDG, YDR","Stop codon, No negatives"
+"/,N,S,Y,H,K,R,C,Q","HRM, HRW, HRH","Stop codon, No hydrophobic, No negatives"
+"/,N,S,Y,H,K,R,W,C,Q","HRK, HRS, HRD, HRV, HRN","Stop codon, No negatives"
+"/,N,S,Y,R,C,K","WRM, WRW, WRH","Stop codon, No hydrophobic, No negatives"
+"/,N,S,Y,R,W,C,K","WRK, WRS, WRD, WRV, WRN","Stop codon, No negatives"
+"/,N,S,Y,T,H,Q,R,C,K,P","HVM, HVW, HVH","Stop codon, No hydrophobic, No negatives"
+"/,N,S,Y,T,H,Q,R,W,C,K,P","HVK, HVS, HVB, HVD, HVV, HVN","Stop codon, No negatives"
+"/,N,S,Y,T,R,C,K","WVM, WVW, WVH","Stop codon, No hydrophobic, No negatives"
+"/,N,S,Y,T,R,W,C,K","WVK, WVS, WVB, WVD, WVV, WVN","Stop codon, No negatives"
+"/,N,Y,H,K,Q","HAK, HAM, HAS, HAW, HAD, HAH, HAV, HAN","Stop codon, No hydrophobic, No negatives"
+"/,N,Y,H,Q,K",HAB,"Stop codon, No hydrophobic, No negatives"
+"/,N,Y,S,T,H,K,Q,P","HMK, HMM, HMS, HMW, HMD, HMH, HMV, HMN","Stop codon, No hydrophobic, No negatives"
+"/,N,Y,S,T,H,Q,K,P",HMB,"Stop codon, No hydrophobic, No negatives"
+"/,N,Y,S,T,K",WMB,"Stop codon, No hydrophobic, No negatives"
+"/,Q","YAA, YAG, YAR","Stop codon, No hydrophobic, No positives, No negatives"
+"/,Q,E","BAA, BAG, BAR","Stop codon, No hydrophobic, No positives"
+"/,R","YGA, WGA, HGA","Stop codon, No hydrophobic, No polar, No negatives"
+"/,R,K",WRA,"Stop codon, No hydrophobic, No polar, No negatives"
+"/,R,Q",YRA,"Stop codon, No hydrophobic, No negatives"
+"/,R,S,P",YSA,"Stop codon, No hydrophobic, No negatives"
+"/,R,T,S",WSA,"Stop codon, No hydrophobic, No negatives"
+"/,S","TMA, TMG, TMR, TSA, TVA","Stop codon, No hydrophobic, No positives, No negatives"
+"/,S,E,A,Q,P","BMA, BMG, BMR","Stop codon, No positives"
+"/,S,G,A,C","KSM, KSW, KSH","Stop codon, No positives, No negatives"
+"/,S,G,E,A",KVA,"Stop codon, No positives"
+"/,S,G,E,R,A,Q,P",BVA,Stop codon
+"/,S,G,R,A,C,P","BSM, BSW, BSH","Stop codon, No negatives"
+"/,S,G,R,A,P",BSA,"Stop codon, No negatives"
+"/,S,G,R,C","DGM, DGW, DGH, NGM, NGW, NGH","Stop codon, No hydrophobic, No negatives"
+"/,S,G,R,W,C","DGD, DGV, DGN, NGD, NGV, NGN","Stop codon, No negatives"
+"/,S,G,T,E,K,R,A,Q,P",NVA,Stop codon
+"/,S,G,T,E,R,A,K",DVA,Stop codon
+"/,S,G,T,R,A",DSA,"Stop codon, No negatives"
+"/,S,G,T,R,A,C","DSM, DSW, DSH","Stop codon, No negatives"
+"/,S,G,T,R,A,C,P","NSM, NSW, NSH","Stop codon, No negatives"
+"/,S,G,T,R,A,P",NSA,"Stop codon, No negatives"
+"/,S,L,F,C","TBM, TBW, TBH","Stop codon, No positives, No negatives"
+"/,S,L,F,R,C,P","YBM, YBW, YBH","Stop codon, No negatives"
+"/,S,L,F,R,W,C,P","YBD, YBV, YBN","Stop codon, No negatives"
+"/,S,L,F,W,C","TBD, TBV, TBN","Stop codon, No positives, No negatives"
+"/,S,L,Q,P","YHA, YHG, YHR","Stop codon, No positives, No negatives"
+"/,S,L,R,P",YBA,"Stop codon, No negatives"
+"/,S,L,R,Q,P",YNA,"Stop codon, No negatives"
+"/,S,L,R,W,P",YBR,"Stop codon, No negatives"
+"/,S,L,R,W,Q,P","YNG, YNR","Stop codon, No negatives"
+"/,S,N,Y,H,Q,R,W,C,K",HRB,"Stop codon, No negatives"
+"/,S,Q,P","YMA, YMG, YMR","Stop codon, No hydrophobic, No positives, No negatives"
+"/,S,R,C,P","YSM, YSW, YSH","Stop codon, No hydrophobic, No negatives"
+"/,S,R,Q,P",YVA,"Stop codon, No hydrophobic, No negatives"
+"/,S,R,W,C","WGD, WGV, WGN, HGD, HGV, HGN","Stop codon, No negatives"
+"/,S,R,W,C,P","YSD, YSV, YSN","Stop codon, No negatives"
+"/,S,R,W,P",YSR,"Stop codon, No negatives"
+"/,S,R,W,Q,P","YVG, YVR","Stop codon, No negatives"
+"/,S,T,E,A,K","DMA, DMG, DMR",Stop codon
+"/,S,T,E,K,A,Q,P","NMA, NMG, NMR",Stop codon
+"/,S,T,K,L,M,Q,P",HHG,"Stop codon, No negatives"
+"/,S,T,K,L,M,R,W,Q,P",HNG,"Stop codon, No negatives"
+"/,S,T,K,Q,P","HMA, HMG, HMR","Stop codon, No hydrophobic, No negatives"
+"/,S,T,K,R,Q,P",HVA,"Stop codon, No hydrophobic, No negatives"
+"/,S,T,K,R,W,Q,P","HVG, HVR","Stop codon, No negatives"
+"/,S,T,L,M,K",WHG,"Stop codon, No negatives"
+"/,S,T,L,M,R,W,K",WNG,"Stop codon, No negatives"
+"/,S,T,R,C","WSM, WSW, WSH","Stop codon, No hydrophobic, No negatives"
+"/,S,T,R,C,P","HSM, HSW, HSH","Stop codon, No hydrophobic, No negatives"
+"/,S,T,R,K",WVA,"Stop codon, No hydrophobic, No negatives"
+"/,S,T,R,P",HSA,"Stop codon, No hydrophobic, No negatives"
+"/,S,T,R,W",WSR,"Stop codon, No negatives"
+"/,S,T,R,W,C","WSD, WSV, WSN","Stop codon, No negatives"
+"/,S,T,R,W,C,P","HSD, HSV, HSN","Stop codon, No negatives"
+"/,S,T,R,W,K","WVG, WVR","Stop codon, No negatives"
+"/,S,T,R,W,P",HSR,"Stop codon, No negatives"
+"/,S,Y","TMK, TMM, TMS, TMW, TMB, TMD, TMH, TMV, TMN","Stop codon, No hydrophobic, No positives, No negatives"
+"/,S,Y,L,F","THK, THM, THS, THW, THB, THD, THH, THV, THN","Stop codon, No positives, No negatives"
+"/,S,Y,L,F,C","TNM, TNW, TNH","Stop codon, No positives, No negatives"
+"/,S,Y,L,F,W,C","TNK, TNS, TNB, TND, TNV, TNN","Stop codon, No positives, No negatives"
+"/,S,Y,W,C","TVK, TVS, TVB, TVD, TVV, TVN","Stop codon, No positives, No negatives"
+"/,T,K,S","WMA, WMG, WMR","Stop codon, No hydrophobic, No negatives"
+"/,V,E,L,K,M,Q",NWG,Stop codon
+"/,V,E,L,M,K",DWG,"Stop codon, No polar"
+"/,V,E,L,Q","BWA, BWG, BWR","Stop codon, No positives"
+"/,V,G,E,L",KDA,"Stop codon, No polar, No positives"
+"/,V,G,E,L,K,M,R,W,Q",NDG,Stop codon
+"/,V,G,E,L,M,R,W,K",DDG,"Stop codon, No polar"
+"/,V,G,E,L,R,Q",BDA,Stop codon
+"/,V,G,E,L,R,W,Q","BDG, BDR",Stop codon
+"/,V,G,E,L,W","KDG, KDR","Stop codon, No polar, No positives"
+"/,V,G,L,F,C","KKM, KKW, KKH","Stop codon, No polar, No positives, No negatives"
+"/,V,G,L,F,R,C","BKM, BKW, BKH","Stop codon, No polar, No negatives"
+"/,V,G,L,F,R,W,C","BKD, BKV, BKN","Stop codon, No polar, No negatives"
+"/,V,G,L,F,W,C","KKD, KKV, KKN","Stop codon, No polar, No positives, No negatives"
+"/,V,G,L,R",BKA,"Stop codon, No polar, No negatives"
+"/,V,G,L,R,W",BKR,"Stop codon, No polar, No negatives"
+"/,V,G,L,W",KKR,"Stop codon, No polar, No positives, No negatives"
+"/,V,S,E,L,A","KHA, KHG, KHR","Stop codon, No positives"
+"/,V,S,E,L,A,Q,P","BHA, BHG, BHR","Stop codon, No positives"
+"/,V,S,G,E,L,A",KNA,"Stop codon, No positives"
+"/,V,S,G,E,L,R,A,Q,P",BNA,Stop codon
+"/,V,S,G,L,A",KBA,"Stop codon, No positives, No negatives"
+"/,V,S,G,L,F,A,C","KBM, KBW, KBH","Stop codon, No positives, No negatives"
+"/,V,S,G,L,F,R,A,C,P","BBM, BBW, BBH","Stop codon, No negatives"
+"/,V,S,G,L,R,A,P",BBA,"Stop codon, No negatives"
+"/,V,S,T,E,K,L,M,A,Q,P",NHG,Stop codon
+"/,V,S,T,E,L,M,A,K",DHG,Stop codon
+"/,V,S,W,G,E,L,A","KNG, KNR","Stop codon, No positives"
+"/,V,S,W,G,E,L,R,A,Q,P","BNG, BNR",Stop codon
+"/,V,S,W,G,L,A",KBR,"Stop codon, No positives, No negatives"
+"/,V,S,W,G,L,F,A,C","KBD, KBV, KBN","Stop codon, No positives, No negatives"
+"/,V,S,W,G,L,F,R,A,C,P","BBD, BBV, BBN","Stop codon, No negatives"
+"/,V,S,W,G,L,R,A,P",BBR,"Stop codon, No negatives"
+"/,V,S,W,G,T,E,K,L,M,R,A,Q,P",NNG,Stop codon
+"/,V,S,W,G,T,E,L,M,R,A,K",DNG,Stop codon
+"/,W,C,G","KGD, KGV, KGN","Stop codon, No polar, No positives, No negatives"
+"/,W,G",KGR,"Stop codon, No polar, No positives, No negatives"
+"/,W,G,E","KRG, KRR","Stop codon, No polar, No positives"
+"/,W,G,R","BGR, DGR, NGR","Stop codon, No polar, No negatives"
+"/,W,S,G,A",KSR,"Stop codon, No positives, No negatives"
+"/,W,S,G,A,C","KSD, KSV, KSN","Stop codon, No positives, No negatives"
+"/,W,S,G,E,A","KVG, KVR","Stop codon, No positives"
+"/,W,S,G,E,R,A,Q,P","BVG, BVR",Stop codon
+"/,W,S,G,R,A,C,P","BSD, BSV, BSN","Stop codon, No negatives"
+"/,W,S,G,R,A,P",BSR,"Stop codon, No negatives"
+"/,W,S,G,T,E,K,R,A,Q,P","NVG, NVR",Stop codon
+"/,W,S,G,T,E,R,A,K","DVG, DVR",Stop codon
+"/,W,S,G,T,R,A",DSR,"Stop codon, No negatives"
+"/,W,S,G,T,R,A,C","DSD, DSV, DSN","Stop codon, No negatives"
+"/,W,S,G,T,R,A,C,P","NSD, NSV, NSN","Stop codon, No negatives"
+"/,W,S,G,T,R,A,P",NSR,"Stop codon, No negatives"
+"/,Y","TAK, TAM, TAS, TAW, TAB, TAD, TAH, TAV, TAN","Stop codon, No hydrophobic, No positives, No negatives"
+"/,Y,H,L,F,Q","YWK, YWM, YWS, YWW, YWB, YWD, YWH, YWV, YWN","Stop codon, No negatives"
+"/,Y,H,L,F,R,C,Q","YDM, YDW, YDH","Stop codon, No negatives"
+"/,Y,H,L,F,R,W,C,Q","YDK, YDS, YDB, YDD, YDV, YDN","Stop codon, No negatives"
+"/,Y,H,R,C,Q","YRM, YRW, YRH","Stop codon, No hydrophobic, No negatives"
+"/,Y,H,R,W,C,Q","YRK, YRS, YRB, YRD, YRV, YRN","Stop codon, No negatives"
+"/,Y,L,F,C","TDM, TDW, TDH","Stop codon, No positives, No negatives"
+"/,Y,L,F,W,C","TDK, TDS, TDB, TDD, TDV, TDN","Stop codon, No positives, No negatives"
+"/,Y,N,S,T,K","WMK, WMM, WMS, WMW, WMD, WMH, WMV, WMN","Stop codon, No hydrophobic, No negatives"
+"/,Y,S,H,L,F,Q,P","YHK, YHM, YHS, YHW, YHB, YHD, YHH, YHV, YHN","Stop codon, No negatives"
+"/,Y,S,H,L,F,R,C,Q,P","YNM, YNW, YNH","Stop codon, No negatives"
+"/,Y,S,H,L,F,R,W,C,Q,P","YNK, YNS, YNB, YND, YNV, YNN","Stop codon, No negatives"
+"/,Y,S,H,Q,P","YMK, YMM, YMS, YMW, YMB, YMD, YMH, YMV, YMN","Stop codon, No hydrophobic, No negatives"
+"/,Y,S,H,R,C,Q,P","YVM, YVW, YVH","Stop codon, No hydrophobic, No negatives"
+"/,Y,S,H,R,W,C,Q,P","YVK, YVS, YVB, YVD, YVV, YVN","Stop codon, No negatives"
+"/,Y,S,N,R,W,C,K",WRB,"Stop codon, No negatives"
+A,"GCA, GCC, GCG, GCT, GCR, GCY, GCK, GCM, GCS, GCW, GCB, GCD, GCH, GCV, GCN",All hydrophobic
+"A,/,S,E","KMA, KMG, KMR","Stop codon, No positives"
+"A,C,G,S","KSC, KST, KSY","No positives, No negatives"
+"A,D","GMC, GMT, GMY","No polar, No positives"
+"A,D,E","GMK, GMM, GMS, GMW, GMB, GMD, GMH, GMV, GMN","No polar, No positives"
+"A,D,S,Y","KMC, KMT, KMY",No positives
+"A,D,T,N","RMC, RMT, RMY",No positives
+"A,D,V","GHC, GHT, GHY","No polar, No positives"
+"A,D,V,E","GHK, GHM, GHS, GHW, GHB, GHD, GHH, GHV, GHN","No polar, No positives"
+"A,E","GMA, GMG, GMR","No polar, No positives"
+"A,F,V,S","KYC, KYT, KYY","No positives, No negatives"
+"A,G","GSA, GSC, GSG, GST, GSR, GSY, GSK, GSM, GSS, GSW, GSB, GSD, GSH, GSV, GSN","No polar, No positives, No negatives"
+"A,G,D","GVC, GVT, GVY","No polar, No positives"
+"A,G,D,E","GVK, GVM, GVS, GVW, GVB, GVD, GVH, GVV, GVN","No polar, No positives"
+"A,G,D,V","GNC, GNT, GNY","No polar, No positives"
+"A,G,E","GVA, GVG, GVR","No polar, No positives"
+"A,G,R,P","SSA, SSC, SSG, SST, SSR, SSY, SSK, SSM, SSS, SSW, SSB, SSD, SSH, SSV, SSN","No polar, No negatives"
+"A,G,R,T","RSA, RSG, RSR",No negatives
+"A,G,T,S","RSC, RST, RSY","No positives, No negatives"
+"A,G,V","GBA, GBC, GBG, GBT, GBR, GBY, GBK, GBM, GBS, GBW, GBB, GBD, GBH, GBV, GBN","No polar, No positives, No negatives"
+"A,G,V,E","GNA, GNG, GNR","No polar, No positives"
+"A,G,W,S",KSG,"No positives, No negatives"
+"A,L,V,P","SYA, SYC, SYG, SYT, SYR, SYY, SYK, SYM, SYS, SYW, SYB, SYD, SYH, SYV, SYN","No polar, No positives, No negatives"
+"A,L,V,S","KYA, KYG, KYR","No positives, No negatives"
+"A,P","SCA, SCC, SCG, SCT, SCR, SCY, SCK, SCM, SCS, SCW, SCB, SCD, SCH, SCV, SCN","No polar, No positives, No negatives"
+"A,P,D,H","SMC, SMT, SMY",No polar
+"A,P,Q,E","SMA, SMG, SMR",No positives
+"A,S","KCA, KCC, KCG, KCT, KCR, KCY, KCK, KCM, KCS, KCW, KCB, KCD, KCH, KCV, KCN","No positives, No negatives"
+"A,S,P","BCA, BCC, BCG, BCT, BCR, BCY, BCK, BCM, BCS, BCW, BCB, BCD, BCH, BCV, BCN","No positives, No negatives"
+"A,S,T","DCA, DCC, DCG, DCT, DCR, DCY, DCK, DCM, DCS, DCW, DCB, DCD, DCH, DCV, DCN","No positives, No negatives"
+"A,S,T,P","NCA, NCC, NCG, NCT, NCR, NCY, NCK, NCM, NCS, NCW, NCB, NCD, NCH, NCV, NCN","No positives, No negatives"
+"A,T","RCA, RCC, RCG, RCT, RCR, RCY, RCK, RCM, RCS, RCW, RCB, RCD, RCH, RCV, RCN","No positives, No negatives"
+"A,T,K,E","RMA, RMG, RMR",
+"A,T,P","VCA, VCC, VCG, VCT, VCR, VCY, VCK, VCM, VCS, VCW, VCB, VCD, VCH, VCV, VCN","No positives, No negatives"
+"A,V","GYA, GYC, GYG, GYT, GYR, GYY, GYK, GYM, GYS, GYW, GYB, GYD, GYH, GYV, GYN",All hydrophobic
+"A,V,E","GHA, GHG, GHR","No polar, No positives"
+C,"TGC, TGT, TGY","No hydrophobic, No polar, No positives, No negatives"
+"C,/","TGM, TGW, TGH","Stop codon, No hydrophobic, No polar, No positives, No negatives"
+"C,/,R","YGM, YGW, YGH","Stop codon, No hydrophobic, No polar, No negatives"
+"C,/,R,S","WGM, WGW, WGH, HGM, HGW, HGH","Stop codon, No hydrophobic, No negatives"
+"C,/,S","TSM, TSW, TSH","Stop codon, No hydrophobic, No positives, No negatives"
+"C,/,S,Y","TVM, TVW, TVH","Stop codon, No hydrophobic, No positives, No negatives"
+"C,/,Y","TRM, TRW, TRH","Stop codon, No hydrophobic, No positives, No negatives"
+"C,G","KGC, KGT, KGY","No hydrophobic, No polar, No positives, No negatives"
+"C,G,R","BGC, BGT, BGY","No hydrophobic, No polar, No negatives"
+"C,G,R,S","NGC, NGT, NGY","No hydrophobic, No negatives"
+"C,G,S","DGC, DGT, DGY","No hydrophobic, No positives, No negatives"
+"C,R","YGC, YGT, YGY","No hydrophobic, No polar, No negatives"
+"C,R,S","HGC, HGT, HGY","No hydrophobic, No negatives"
+"C,R,S,P","YSC, YST, YSY","No hydrophobic, No negatives"
+"C,S","TSC, TST, TSY, WGC, WGT, WGY","No hydrophobic, No positives, No negatives"
+"C,S,Y","TVC, TVT, TVY","No hydrophobic, No positives, No negatives"
+"C,T,S","WSC, WST, WSY","No hydrophobic, No positives, No negatives"
+"C,Y","TRC, TRT, TRY","No hydrophobic, No positives, No negatives"
+D,"GAC, GAT, GAY",All negatives
+"D,/,N,S,Y,G,E,H,K,R,C,Q","NRM, NRW, NRH","Stop codon, No hydrophobic"
+"D,/,N,S,Y,G,E,H,K,R,W,C,Q","NRK, NRS, NRD, NRV, NRN",Stop codon
+"D,/,N,S,Y,G,E,R,C,K","DRM, DRW, DRH","Stop codon, No hydrophobic"
+"D,/,N,S,Y,G,E,R,W,C,K","DRK, DRS, DRD, DRV, DRN",Stop codon
+"D,/,N,S,Y,G,T,E,H,Q,R,A,C,K,P","NVM, NVW, NVH",Stop codon
+"D,/,N,S,Y,G,T,E,R,A,C,K","DVM, DVW, DVH",Stop codon
+"D,/,N,S,Y,W,G,T,E,H,Q,R,A,C,K,P","NVK, NVS, NVB, NVD, NVV, NVN",Stop codon
+"D,/,N,S,Y,W,G,T,E,R,A,C,K","DVK, DVS, DVB, DVD, DVV, DVN",Stop codon
+"D,/,N,Y,E,H,K,Q","NAK, NAM, NAS, NAW, NAD, NAH, NAV, NAN","Stop codon, No hydrophobic"
+"D,/,N,Y,E,H,Q,K",NAB,"Stop codon, No hydrophobic"
+"D,/,N,Y,S,T,E,A,K","DMK, DMM, DMS, DMW, DMB, DMD, DMH, DMV, DMN",Stop codon
+"D,/,N,Y,S,T,E,H,K,A,Q,P","NMK, NMM, NMS, NMW, NMD, NMH, NMV, NMN",Stop codon
+"D,/,N,Y,S,T,E,H,Q,A,K,P",NMB,Stop codon
+"D,/,S,N,Y,G,E,H,Q,R,W,C,K",NRB,Stop codon
+"D,/,S,N,Y,G,E,R,W,C,K",DRB,Stop codon
+"D,/,Y,E,H,Q",BAB,"Stop codon, No hydrophobic"
+"D,/,Y,G,E,H,R,C,Q","BRM, BRW, BRH","Stop codon, No hydrophobic"
+"D,/,Y,G,E,H,R,W,C,Q","BRK, BRS, BRB, BRD, BRV, BRN",Stop codon
+"D,/,Y,N,E,K",DAB,"Stop codon, No hydrophobic"
+"D,/,Y,S,E,H,A,Q,P","BMK, BMM, BMS, BMW, BMB, BMD, BMH, BMV, BMN",Stop codon
+"D,/,Y,S,G,E,H,R,A,C,Q,P","BVM, BVW, BVH",Stop codon
+"D,/,Y,S,W,G,E,A,C",KVB,"Stop codon, No positives"
+"D,/,Y,S,W,G,E,H,R,A,C,Q,P","BVK, BVS, BVB, BVD, BVV, BVN",Stop codon
+"D,E","GAK, GAM, GAS, GAW, GAB, GAD, GAH, GAV, GAN",All negatives
+"D,E,H,A,Q,P","SMK, SMM, SMS, SMW, SMB, SMD, SMH, SMV, SMN",
+"D,G,E,H,R,A,Q,P","SVK, SVM, SVS, SVW, SVB, SVD, SVH, SVV, SVN",
+"D,G,E,H,R,Q","SRK, SRM, SRS, SRW, SRB, SRD, SRH, SRV, SRN",No hydrophobic
+"D,G,H,R,A,P","SVC, SVT, SVY",No polar
+"D,N","RAC, RAT, RAY","No hydrophobic, No positives"
+"D,N,E,H,K,Q","VAK, VAM, VAS, VAW, VAD, VAH, VAV, VAN",No hydrophobic
+"D,N,E,H,Q,K",VAB,No hydrophobic
+"D,N,S,G,E,H,K,R,Q","VRK, VRM, VRS, VRW, VRD, VRH, VRV, VRN",No hydrophobic
+"D,N,S,G,E,R,K","RRK, RRM, RRS, RRW, RRD, RRH, RRV, RRN",No hydrophobic
+"D,N,S,G,T,A","RVC, RVT, RVY",No positives
+"D,N,S,G,T,E,H,Q,R,A,K,P","VVK, VVM, VVS, VVW, VVB, VVD, VVH, VVV, VVN",
+"D,N,S,G,T,E,R,A,K","RVK, RVM, RVS, RVW, RVB, RVD, RVH, RVV, RVN",
+"D,N,S,G,T,H,R,A,P","VVC, VVT, VVY",
+"D,N,S,Y,G,T,A,C","DVC, DVT, DVY",No positives
+"D,N,S,Y,G,T,H,R,A,C,P","NVC, NVT, NVY",
+"D,N,T,E,A,K","RMK, RMM, RMS, RMW, RMB, RMD, RMH, RMV, RMN",
+"D,N,T,E,H,K,A,Q,P","VMK, VMM, VMS, VMW, VMD, VMH, VMV, VMN",
+"D,N,T,E,H,Q,A,K,P",VMB,
+"D,N,T,H,A,P","VMC, VMT, VMY",
+"D,N,Y,S,T,H,A,P","NMC, NMT, NMY",
+"D,S,N,G,E,H,Q,R,K",VRB,No hydrophobic
+"D,S,N,G,E,R,K",RRB,No hydrophobic
+"D,S,N,G,H,R","VRC, VRT, VRY",No hydrophobic
+"D,S,N,Y,G,C","DRC, DRT, DRY","No hydrophobic, No positives"
+"D,S,N,Y,G,H,R,C","NRC, NRT, NRY",No hydrophobic
+"D,S,Y,G,A,C","KVC, KVT, KVY",No positives
+"D,V","GWC, GWT, GWY","No polar, No positives"
+"D,V,/,Y,E,H,L,F,Q","BWK, BWM, BWS, BWW, BWD, BWH, BWV, BWN",Stop codon
+"D,V,/,Y,G,E,H,L,F,R,C,Q","BDM, BDW, BDH",Stop codon
+"D,V,/,Y,G,E,H,L,F,R,W,C,Q","BDK, BDS, BDD, BDV, BDN",Stop codon
+"D,V,/,Y,S,E,H,L,F,A,Q,P","BHK, BHM, BHS, BHW, BHD, BHH, BHV, BHN",Stop codon
+"D,V,/,Y,S,G,E,H,L,F,R,A,C,Q,P","BNM, BNW, BNH",Stop codon
+"D,V,/,Y,S,G,E,L,F,A,C","KNM, KNW, KNH","Stop codon, No positives"
+"D,V,/,Y,S,W,G,E,H,L,F,R,A,C,Q,P","BNK, BNS, BND, BNV, BNN",Stop codon
+"D,V,/,Y,S,W,G,E,L,F,A,C","KNK, KNS, KND, KNV, KNN","Stop codon, No positives"
+"D,V,E","GWK, GWM, GWS, GWW, GWB, GWD, GWH, GWV, GWN","No polar, No positives"
+"D,V,E,H,L,A,Q,P","SHK, SHM, SHS, SHW, SHB, SHD, SHH, SHV, SHN",
+"D,V,E,H,L,Q","SWK, SWM, SWS, SWW, SWB, SWD, SWH, SWV, SWN",
+"D,V,G,E,A","GNK, GNM, GNS, GNW, GNB, GND, GNH, GNV, GNN","No polar, No positives"
+"D,V,G,E,H,L,R,A,Q,P","SNK, SNM, SNS, SNW, SNB, SND, SNH, SNV, SNN",
+"D,V,G,E,H,L,R,Q","SDK, SDM, SDS, SDW, SDB, SDD, SDH, SDV, SDN",
+"D,V,G,H,L,R","SDC, SDT, SDY",No polar
+"D,V,G,H,L,R,A,P","SNC, SNT, SNY",No polar
+"D,V,H,L,A,P","SHC, SHT, SHY",No polar
+"D,V,Y,/,E,H,L,F,Q",BWB,Stop codon
+"D,V,Y,/,G,E,H,L,F,R,W,C,Q",BDB,Stop codon
+"D,V,Y,/,G,E,L,F,W,C",KDB,"Stop codon, No positives"
+"D,V,Y,/,S,E,H,L,F,A,Q,P",BHB,Stop codon
+"D,V,Y,/,S,E,L,F,A",KHB,"Stop codon, No positives"
+"D,V,Y,/,S,W,G,E,H,L,F,R,A,C,Q,P",BNB,Stop codon
+"D,V,Y,/,S,W,G,E,L,F,A,C",KNB,"Stop codon, No positives"
+"D,V,Y,G,F,C","KDC, KDT, KDY",No positives
+"D,V,Y,G,H,L,F,R,C","BDC, BDT, BDY",
+"D,V,Y,H,L,F","BWC, BWT, BWY",
+"D,V,Y,S,F,A","KHC, KHT, KHY",No positives
+"D,V,Y,S,G,F,A,C","KNC, KNT, KNY",No positives
+"D,V,Y,S,G,H,L,F,R,A,C,P","BNC, BNT, BNY",
+"D,V,Y,S,H,L,F,A,P","BHC, BHT, BHY",
+"D,Y","KAC, KAT, KAY","No hydrophobic, No positives"
+"D,Y,G,H,R,C","BRC, BRT, BRY",No hydrophobic
+"D,Y,N,S,T,A","DMC, DMT, DMY",No positives
+"D,Y,S,G,H,R,A,C,P","BVC, BVT, BVY",
+"D,Y,S,H,A,P","BMC, BMT, BMY",
+E,"GAA, GAG, GAR",All negatives
+F,"TTC, TTT, TTY",All hydrophobic
+"F,C","TKC, TKT, TKY","No polar, No positives, No negatives"
+"F,C,G,V","KKC, KKT, KKY","No polar, No positives, No negatives"
+"F,C,S","TBC, TBT, TBY","No positives, No negatives"
+"F,C,S,Y","TNC, TNT, TNY","No positives, No negatives"
+"F,C,Y","TDC, TDT, TDY","No positives, No negatives"
+"F,D,V,Y","KWC, KWT, KWY",No positives
+"F,L,C,/","TKM, TKW, TKH","Stop codon, No polar, No positives, No negatives"
+"F,L,C,R","YKC, YKT, YKY","No polar, No negatives"
+"F,S","TYC, TYT, TYY","No positives, No negatives"
+"F,S,Y","THC, THT, THY","No positives, No negatives"
+"F,V","KTC, KTT, KTY",All hydrophobic
+"F,W,L,C","TKK, TKS, TKB","No polar, No positives, No negatives"
+"F,Y","TWC, TWT, TWY","No positives, No negatives"
+G,"GGA, GGC, GGG, GGT, GGR, GGY, GGK, GGM, GGS, GGW, GGB, GGD, GGH, GGV, GGN","No hydrophobic, No polar, No positives, No negatives"
+"G,C,D,Y","KRC, KRT, KRY","No hydrophobic, No positives"
+"G,D","GRC, GRT, GRY","No hydrophobic, No polar, No positives"
+"G,D,E","GRK, GRM, GRS, GRW, GRB, GRD, GRH, GRV, GRN","No hydrophobic, No polar, No positives"
+"G,D,S,N","RRC, RRT, RRY","No hydrophobic, No positives"
+"G,D,V","GDC, GDT, GDY","No polar, No positives"
+"G,D,V,E","GDK, GDM, GDS, GDW, GDB, GDD, GDH, GDV, GDN","No polar, No positives"
+"G,E","GRA, GRG, GRR","No hydrophobic, No polar, No positives"
+"G,E,K,R,Q","VRA, VRG, VRR",No hydrophobic
+"G,E,R,A,Q,P","SVA, SVG, SVR",
+"G,R","RGA, RGG, RGR, SGA, SGC, SGG, SGT, SGR, SGY, SGK, SGM, SGS, SGW, SGB, SGD, SGH, SGV, SGN, VGA, VGG, VGR","No hydrophobic, No polar, No negatives"
+"G,R,K,E","RRA, RRG, RRR","No hydrophobic, No polar"
+"G,R,Q,E","SRA, SRG, SRR",No hydrophobic
+"G,R,S","RGK, RGM, RGS, RGW, RGB, RGD, RGH, RGV, RGN, VGC, VGT, VGY, VGK, VGM, VGS, VGW, VGB, VGD, VGH, VGV, VGN","No hydrophobic, No negatives"
+"G,S","RGC, RGT, RGY","No hydrophobic, No positives, No negatives"
+"G,T,E,K,R,A,Q,P","VVA, VVG, VVR",
+"G,T,E,R,A,K","RVA, RVG, RVR",
+"G,T,R,A,P","VSA, VSG, VSR",No negatives
+"G,V","GKA, GKC, GKG, GKT, GKR, GKY, GKK, GKM, GKS, GKW, GKB, GKD, GKH, GKV, GKN","No polar, No positives, No negatives"
+"G,V,E","GDA, GDG, GDR","No polar, No positives"
+H,"CAC, CAT, CAY",All positives
+"H,C,R,Y","YRC, YRT, YRY","No hydrophobic, No negatives"
+"H,D","SAC, SAT, SAY","No hydrophobic, No polar"
+"H,D,N","VAC, VAT, VAY",No hydrophobic
+"H,D,Q,E","SAK, SAM, SAS, SAW, SAB, SAD, SAH, SAV, SAN",No hydrophobic
+"H,D,Y","BAC, BAT, BAY",No hydrophobic
+"H,G,D,R","SRC, SRT, SRY","No hydrophobic, No polar"
+"H,K,Q,N",MAB,"No hydrophobic, No negatives"
+"H,L","CWC, CWT, CWY","No polar, No negatives"
+"H,L,D,V","SWC, SWT, SWY",No polar
+"H,L,F,Y","YWC, YWT, YWY",No negatives
+"H,L,P","CHC, CHT, CHY","No polar, No negatives"
+"H,L,Q","CWK, CWM, CWS, CWW, CWB, CWD, CWH, CWV, CWN",No negatives
+"H,L,Q,P","CHK, CHM, CHS, CHW, CHB, CHD, CHH, CHV, CHN",No negatives
+"H,L,R","CDC, CDT, CDY","No polar, No negatives"
+"H,L,R,P","CNC, CNT, CNY","No polar, No negatives"
+"H,L,R,Q","CDK, CDM, CDS, CDW, CDB, CDD, CDH, CDV, CDN",No negatives
+"H,L,R,Q,P","CNK, CNM, CNS, CNW, CNB, CND, CNH, CNV, CNN",No negatives
+"H,N","MAC, MAT, MAY","No hydrophobic, No negatives"
+"H,P","CMC, CMT, CMY","No hydrophobic, No polar, No negatives"
+"H,Q","CAK, CAM, CAS, CAW, CAB, CAD, CAH, CAV, CAN","No hydrophobic, No negatives"
+"H,Q,N,K","MAK, MAM, MAS, MAW, MAD, MAH, MAV, MAN","No hydrophobic, No negatives"
+"H,Q,P","CMK, CMM, CMS, CMW, CMB, CMD, CMH, CMV, CMN","No hydrophobic, No negatives"
+"H,R","CRC, CRT, CRY",All positives
+"H,R,P","CVC, CVT, CVY","No hydrophobic, No polar, No negatives"
+"H,R,Q","CRK, CRM, CRS, CRW, CRB, CRD, CRH, CRV, CRN","No hydrophobic, No negatives"
+"H,R,Q,P","CVK, CVM, CVS, CVW, CVB, CVD, CVH, CVV, CVN","No hydrophobic, No negatives"
+"H,S,N,R","MRC, MRT, MRY","No hydrophobic, No negatives"
+"H,S,Y,P","YMC, YMT, YMY","No hydrophobic, No negatives"
+"H,T,N,P","MMC, MMT, MMY","No hydrophobic, No negatives"
+"H,Y","YAC, YAT, YAY","No hydrophobic, No negatives"
+"H,Y,/,Q","YAK, YAM, YAS, YAW, YAB, YAD, YAH, YAV, YAN","Stop codon, No hydrophobic, No negatives"
+"H,Y,D,N","NAC, NAT, NAY",No hydrophobic
+"H,Y,N","HAC, HAT, HAY","No hydrophobic, No negatives"
+I,"ATA, ATC, ATT, ATY, ATM, ATW, ATH",All hydrophobic
+"I,/,K,L,M,R,W,Q",HDR,"Stop codon, No negatives"
+"I,/,L,K,M,Q",HWR,"Stop codon, No negatives"
+"I,/,L,K,Q",HWA,"Stop codon, No negatives"
+"I,/,L,K,R,Q",HDA,"Stop codon, No negatives"
+"I,/,L,M,K",WWR,"Stop codon, No polar, No negatives"
+"I,/,L,M,R,W","WKR, HKR","Stop codon, No polar, No negatives"
+"I,/,L,M,R,W,K",WDR,"Stop codon, No polar, No negatives"
+"I,/,L,R,K",WDA,"Stop codon, No polar, No negatives"
+"I,/,N,S,Y,H,Q,L,F,M,R,W,C,K","HDK, HDS","Stop codon, No negatives"
+"I,/,N,S,Y,H,Q,L,F,R,C,K","HDM, HDW, HDH","Stop codon, No negatives"
+"I,/,N,S,Y,H,Q,L,F,R,M,W,C,K","HDD, HDV, HDN","Stop codon, No negatives"
+"I,/,N,S,Y,L,F,M,R,W,C,K","WDK, WDS","Stop codon, No negatives"
+"I,/,N,S,Y,L,F,R,C,K","WDM, WDW, WDH","Stop codon, No negatives"
+"I,/,N,S,Y,L,F,R,M,W,C,K","WDD, WDV, WDN","Stop codon, No negatives"
+"I,/,N,S,Y,T,H,Q,L,F,R,C,K,P","HNM, HNW, HNH","Stop codon, No negatives"
+"I,/,N,S,Y,T,H,Q,L,F,R,M,W,C,K,P","HNK, HNS, HNB, HND, HNV, HNN","Stop codon, No negatives"
+"I,/,N,S,Y,T,L,F,R,C,K","WNM, WNW, WNH","Stop codon, No negatives"
+"I,/,N,S,Y,T,L,F,R,M,W,C,K","WNK, WNS, WNB, WND, WNV, WNN","Stop codon, No negatives"
+"I,/,N,Y,H,K,L,F,M,Q","HWK, HWS, HWD, HWV, HWN","Stop codon, No negatives"
+"I,/,N,Y,H,K,L,F,Q","HWM, HWW, HWH","Stop codon, No negatives"
+"I,/,N,Y,H,Q,L,F,M,K",HWB,"Stop codon, No negatives"
+"I,/,N,Y,L,F,M,K","WWK, WWS, WWB, WWD, WWV, WWN","Stop codon, No negatives"
+"I,/,N,Y,S,T,H,K,L,F,Q,P","HHM, HHW, HHH","Stop codon, No negatives"
+"I,/,N,Y,S,T,H,Q,L,F,M,K,P","HHK, HHS, HHB, HHD, HHV, HHN","Stop codon, No negatives"
+"I,/,N,Y,S,T,L,F,K","WHM, WHW, WHH","Stop codon, No negatives"
+"I,/,N,Y,S,T,L,F,M,K","WHK, WHS, WHB, WHD, WHV, WHN","Stop codon, No negatives"
+"I,/,S,L,F,M,R,W,C","WKD, WKV, WKN, HKD, HKV, HKN","Stop codon, No negatives"
+"I,/,S,L,F,R,C","WKM, WKW, WKH, HKM, HKW, HKH","Stop codon, No negatives"
+"I,/,S,N,Y,H,Q,L,F,R,M,W,C,K",HDB,"Stop codon, No negatives"
+"I,/,S,N,Y,L,F,R,M,W,C,K",WDB,"Stop codon, No negatives"
+"I,/,S,T,K,L,M,Q,P",HHR,"Stop codon, No negatives"
+"I,/,S,T,K,L,Q,P",HHA,"Stop codon, No negatives"
+"I,/,S,T,K,L,R,Q,P",HNA,"Stop codon, No negatives"
+"I,/,S,T,L,F,M,R,W,C","WBD, WBV, WBN","Stop codon, No negatives"
+"I,/,S,T,L,F,M,R,W,C,P","HBD, HBV, HBN","Stop codon, No negatives"
+"I,/,S,T,L,F,R,C","WBM, WBW, WBH","Stop codon, No negatives"
+"I,/,S,T,L,F,R,C,P","HBM, HBW, HBH","Stop codon, No negatives"
+"I,/,S,T,L,K",WHA,"Stop codon, No negatives"
+"I,/,S,T,L,M,K",WHR,"Stop codon, No negatives"
+"I,/,S,T,L,M,R,W",WBR,"Stop codon, No negatives"
+"I,/,S,T,L,M,R,W,K",WNR,"Stop codon, No negatives"
+"I,/,S,T,L,M,R,W,P",HBR,"Stop codon, No negatives"
+"I,/,S,T,L,R",WBA,"Stop codon, No negatives"
+"I,/,S,T,L,R,K",WNA,"Stop codon, No negatives"
+"I,/,S,T,L,R,P",HBA,"Stop codon, No negatives"
+"I,/,S,T,Q,L,M,R,W,K,P",HNR,"Stop codon, No negatives"
+"I,/,V,E,L,K",DWA,"Stop codon, No polar"
+"I,/,V,E,L,K,M,Q",NWR,Stop codon
+"I,/,V,E,L,K,Q",NWA,Stop codon
+"I,/,V,E,L,M,K",DWR,"Stop codon, No polar"
+"I,/,V,G,E,K,L,M,R,W,Q",NDR,Stop codon
+"I,/,V,G,E,L,K,R,Q",NDA,Stop codon
+"I,/,V,G,E,L,M,R,W,K",DDR,"Stop codon, No polar"
+"I,/,V,G,E,L,R,K",DDA,"Stop codon, No polar"
+"I,/,V,G,L,M,R,W","DKR, NKR","Stop codon, No polar, No negatives"
+"I,/,V,G,L,R","DKA, NKA","Stop codon, No polar, No negatives"
+"I,/,V,S,G,L,F,M,R,W,C","DKD, DKV, DKN, NKD, NKV, NKN","Stop codon, No negatives"
+"I,/,V,S,G,L,F,R,C","DKM, DKW, DKH, NKM, NKW, NKH","Stop codon, No negatives"
+"I,/,V,S,G,T,E,K,L,R,A,Q,P",NNA,Stop codon
+"I,/,V,S,G,T,E,L,R,A,K",DNA,Stop codon
+"I,/,V,S,G,T,L,F,R,A,C","DBM, DBW, DBH","Stop codon, No negatives"
+"I,/,V,S,G,T,L,F,R,A,C,P","NBM, NBW, NBH","Stop codon, No negatives"
+"I,/,V,S,G,T,L,R,A",DBA,"Stop codon, No negatives"
+"I,/,V,S,G,T,L,R,A,P",NBA,"Stop codon, No negatives"
+"I,/,V,S,T,E,K,L,A,Q,P",NHA,Stop codon
+"I,/,V,S,T,E,K,L,M,A,Q,P",NHR,Stop codon
+"I,/,V,S,T,E,L,A,K",DHA,Stop codon
+"I,/,V,S,T,E,L,M,A,K",DHR,Stop codon
+"I,/,V,S,W,G,T,E,L,M,R,A,K",DNR,Stop codon
+"I,/,V,S,W,G,T,E,Q,L,M,R,A,K,P",NNR,Stop codon
+"I,/,V,S,W,G,T,L,F,M,R,A,C","DBD, DBV, DBN","Stop codon, No negatives"
+"I,/,V,S,W,G,T,L,F,M,R,A,C,P","NBD, NBV, NBN","Stop codon, No negatives"
+"I,/,V,S,W,G,T,L,M,R,A",DBR,"Stop codon, No negatives"
+"I,/,V,S,W,G,T,L,M,R,A,P",NBR,"Stop codon, No negatives"
+"I,/,Y,N,L,F,K","WWM, WWW, WWH","Stop codon, No negatives"
+"I,A,V,T","RYA, RYC, RYT, RYY, RYM, RYW, RYH","No positives, No negatives"
+"I,C,F,S","WKC, WKT, WKY","No positives, No negatives"
+"I,D,V,N","RWC, RWT, RWY",No positives
+"I,D,V,N,/,Y,E,H,K,L,F,M,Q","NWK, NWS, NWD, NWV, NWN",Stop codon
+"I,D,V,N,/,Y,E,H,K,L,F,Q","NWM, NWW, NWH",Stop codon
+"I,D,V,N,/,Y,E,L,F,K","DWM, DWW, DWH",Stop codon
+"I,D,V,N,/,Y,E,L,F,M,K","DWK, DWS, DWD, DWV, DWN",Stop codon
+"I,D,V,N,/,Y,S,T,E,H,K,L,F,A,Q,P","NHM, NHW, NHH",Stop codon
+"I,D,V,N,/,Y,S,T,E,H,Q,L,F,M,A,K,P","NHK, NHS, NHD, NHV, NHN",Stop codon
+"I,D,V,N,/,Y,S,T,E,L,F,A,K","DHM, DHW, DHH",Stop codon
+"I,D,V,N,/,Y,S,T,E,L,F,M,A,K","DHK, DHS, DHD, DHV, DHN",Stop codon
+"I,D,V,N,E,H,K,L,M,Q","VWK, VWS, VWD, VWV, VWN",
+"I,D,V,N,E,H,K,L,Q","VWM, VWW, VWH",
+"I,D,V,N,E,H,Q,L,M,K",VWB,
+"I,D,V,N,E,K","RWM, RWW, RWH",
+"I,D,V,N,E,M,K","RWK, RWS, RWB, RWD, RWV, RWN",
+"I,D,V,N,H,L","VWC, VWT, VWY",
+"I,D,V,N,S,/,Y,G,E,H,Q,L,F,M,R,W,C,K","NDK, NDS",Stop codon
+"I,D,V,N,S,/,Y,G,E,H,Q,L,F,R,C,K","NDM, NDW, NDH",Stop codon
+"I,D,V,N,S,/,Y,G,E,H,Q,L,F,R,M,W,C,K","NDD, NDV, NDN",Stop codon
+"I,D,V,N,S,/,Y,G,E,L,F,M,R,W,C,K","DDK, DDS",Stop codon
+"I,D,V,N,S,/,Y,G,E,L,F,R,C,K","DDM, DDW, DDH",Stop codon
+"I,D,V,N,S,/,Y,G,E,L,F,R,M,W,C,K","DDD, DDV, DDN",Stop codon
+"I,D,V,N,S,/,Y,G,T,E,L,F,R,A,C,K","DNM, DNW, DNH",Stop codon
+"I,D,V,N,S,/,Y,W,G,T,E,L,F,R,M,A,C,K","DNK, DNS, DND, DNV, DNN",Stop codon
+"I,D,V,N,S,G,E,H,Q,L,M,R,K","VDK, VDS",
+"I,D,V,N,S,G,E,H,Q,L,R,K","VDM, VDW, VDH",
+"I,D,V,N,S,G,E,H,Q,L,R,M,K","VDD, VDV, VDN",
+"I,D,V,N,S,G,E,M,R,K","RDK, RDS",
+"I,D,V,N,S,G,E,R,K","RDM, RDW, RDH",
+"I,D,V,N,S,G,E,R,M,K","RDD, RDV, RDN",
+"I,D,V,N,S,G,T,A","RNC, RNT, RNY",No positives
+"I,D,V,N,S,G,T,E,H,Q,L,R,A,K,P","VNM, VNW, VNH",
+"I,D,V,N,S,G,T,E,H,Q,L,R,M,A,K,P","VNK, VNS, VNB, VND, VNV, VNN",
+"I,D,V,N,S,G,T,E,R,A,K","RNM, RNW, RNH",
+"I,D,V,N,S,G,T,E,R,M,A,K","RNK, RNS, RNB, RND, RNV, RNN",
+"I,D,V,N,S,G,T,H,L,R,A,P","VNC, VNT, VNY",
+"I,D,V,N,S,Y,/,W,G,T,E,L,F,R,M,A,C,K",DNB,Stop codon
+"I,D,V,N,S,Y,G,T,F,A,C","DNC, DNT, DNY",No positives
+"I,D,V,N,S,Y,G,T,H,L,F,R,A,C,P","NNC, NNT, NNY",
+"I,D,V,N,T,A","RHC, RHT, RHY",No positives
+"I,D,V,N,T,E,A,K","RHM, RHW, RHH",
+"I,D,V,N,T,E,H,K,L,A,Q,P","VHM, VHW, VHH",
+"I,D,V,N,T,E,H,Q,L,M,A,K,P","VHK, VHS, VHB, VHD, VHV, VHN",
+"I,D,V,N,T,E,M,A,K","RHK, RHS, RHB, RHD, RHV, RHN",
+"I,D,V,N,T,H,L,A,P","VHC, VHT, VHY",
+"I,D,V,N,Y,/,E,H,Q,L,F,M,K",NWB,Stop codon
+"I,D,V,N,Y,/,E,L,F,M,K",DWB,Stop codon
+"I,D,V,N,Y,/,S,T,E,H,Q,L,F,M,A,K,P",NHB,Stop codon
+"I,D,V,N,Y,/,S,T,E,L,F,M,A,K",DHB,Stop codon
+"I,D,V,N,Y,H,L,F","NWC, NWT, NWY",
+"I,D,V,N,Y,S,T,F,A","DHC, DHT, DHY",No positives
+"I,D,V,N,Y,S,T,H,L,F,A,P","NHC, NHT, NHY",
+"I,D,V,S,N,G","RDC, RDT, RDY",No positives
+"I,D,V,S,N,G,E,H,Q,L,R,M,K",VDB,
+"I,D,V,S,N,G,E,R,M,K",RDB,
+"I,D,V,S,N,G,H,L,R","VDC, VDT, VDY",
+"I,D,V,S,N,Y,/,G,E,H,Q,L,F,R,M,W,C,K",NDB,Stop codon
+"I,D,V,S,N,Y,/,G,E,L,F,R,M,W,C,K",DDB,Stop codon
+"I,D,V,S,N,Y,G,F,C","DDC, DDT, DDY",No positives
+"I,D,V,S,N,Y,G,H,L,F,R,C","NDC, NDT, NDY",
+"I,D,V,Y,N,F","DWC, DWT, DWY",No positives
+"I,F","WTC, WTT, WTY",All hydrophobic
+"I,F,S,T","WYC, WYT, WYY","No positives, No negatives"
+"I,F,V","DTC, DTT, DTY",All hydrophobic
+"I,G,R,V",RKA,"No polar, No negatives"
+"I,G,V,S","RKC, RKT, RKY","No positives, No negatives"
+"I,H,L,N","MWC, MWT, MWY",No negatives
+"I,K",AWA,"No polar, No negatives"
+"I,K,L,M,R,Q",MDR,No negatives
+"I,K,M,N",AWB,No negatives
+"I,L","MTA, MTC, MTT, MTY, MTM, MTW, MTH, WTA, HTA",All hydrophobic
+"I,L,/,K",WWA,"Stop codon, No polar, No negatives"
+"I,L,/,R","WKA, HKA","Stop codon, No polar, No negatives"
+"I,L,F","WTM, WTW, WTH, HTC, HTT, HTY, HTM, HTW, HTH",All hydrophobic
+"I,L,F,M","WTK, WTS, WTB, WTD, WTV, WTN, HTK, HTS, HTB, HTD, HTV, HTN",All hydrophobic
+"I,L,F,V","DTM, DTW, DTH, NTC, NTT, NTY, NTM, NTW, NTH",All hydrophobic
+"I,L,K,M,Q",MWR,No negatives
+"I,L,K,R,Q",MDA,No negatives
+"I,L,M","MTR, MTK, MTS, MTB, MTD, MTV, MTN, WTR, HTR",All hydrophobic
+"I,L,M,R",MKR,"No polar, No negatives"
+"I,L,M,V","DTR, VTR, VTK, VTS, VTB, VTD, VTV, VTN, NTR",All hydrophobic
+"I,L,R",MKA,"No polar, No negatives"
+"I,L,R,S","MKC, MKT, MKY, MKM, MKW, MKH",No negatives
+"I,L,S,T",WYA,"No positives, No negatives"
+"I,L,T,P","MYA, MYC, MYT, MYY, MYM, MYW, MYH","No positives, No negatives"
+"I,L,V","DTA, VTA, VTC, VTT, VTY, VTM, VTW, VTH, NTA",All hydrophobic
+"I,M","ATR, ATK, ATS, ATB, ATD, ATV, ATN",All hydrophobic
+"I,M,K",AWR,"No polar, No negatives"
+"I,M,R",AKR,"No polar, No negatives"
+"I,M,R,K",ADR,"No polar, No negatives"
+"I,M,R,S","AKK, AKS, AKB, AKD, AKV, AKN",No negatives
+"I,M,R,T",ABR,No negatives
+"I,M,T","AYR, AYK, AYS, AYB, AYD, AYV, AYN","No positives, No negatives"
+"I,M,T,K",AHR,No negatives
+"I,M,V","RTR, RTK, RTS, RTB, RTD, RTV, RTN",All hydrophobic
+"I,N","AWC, AWT, AWY","No positives, No negatives"
+"I,N,H,K,L,M,Q","MWK, MWS, MWD, MWV, MWN",No negatives
+"I,N,H,K,L,Q","MWM, MWW, MWH",No negatives
+"I,N,H,Q,L,M,K",MWB,No negatives
+"I,N,K","AWM, AWW, AWH",No negatives
+"I,N,M,K","AWK, AWS, AWD, AWV, AWN",No negatives
+"I,N,S,H,Q,L,M,R,K","MDK, MDS",No negatives
+"I,N,S,H,Q,L,R,K","MDM, MDW, MDH",No negatives
+"I,N,S,H,Q,L,R,M,K","MDD, MDV, MDN",No negatives
+"I,N,S,M,R,K","ADK, ADS",No negatives
+"I,N,S,R,K","ADM, ADW, ADH",No negatives
+"I,N,S,R,M,K","ADD, ADV, ADN",No negatives
+"I,N,S,T,H,L,R,P","MNC, MNT, MNY",No negatives
+"I,N,S,T,H,Q,L,R,K,P","MNM, MNW, MNH",No negatives
+"I,N,S,T,H,Q,L,R,M,K,P","MNK, MNS, MNB, MND, MNV, MNN",No negatives
+"I,N,S,T,R,K","ANM, ANW, ANH",No negatives
+"I,N,S,T,R,M,K","ANK, ANS, ANB, AND, ANV, ANN",No negatives
+"I,N,S,Y,T,H,L,F,R,C,P","HNC, HNT, HNY",No negatives
+"I,N,T,H,K,L,Q,P","MHM, MHW, MHH",No negatives
+"I,N,T,H,L,P","MHC, MHT, MHY",No negatives
+"I,N,T,H,Q,L,M,K,P","MHK, MHS, MHB, MHD, MHV, MHN",No negatives
+"I,N,T,K","AHM, AHW, AHH",No negatives
+"I,N,T,M,K","AHK, AHS, AHB, AHD, AHV, AHN",No negatives
+"I,N,Y,H,L,F","HWC, HWT, HWY",No negatives
+"I,N,Y,S,T,H,L,F,P","HHC, HHT, HHY",No negatives
+"I,Q,L,K",MWA,No negatives
+"I,R",AKA,"No polar, No negatives"
+"I,R,K",ADA,"No polar, No negatives"
+"I,R,S","AKM, AKW, AKH",No negatives
+"I,R,T",ABA,No negatives
+"I,R,T,S","ABM, ABW, ABH",No negatives
+"I,S","AKC, AKT, AKY","No positives, No negatives"
+"I,S,L,F,M,R,W,C","WKK, WKS, WKB, HKK, HKS, HKB",No negatives
+"I,S,L,F,R,C","HKC, HKT, HKY",No negatives
+"I,S,L,M,R","MKK, MKS, MKB, MKD, MKV, MKN",No negatives
+"I,S,N","ADC, ADT, ADY","No positives, No negatives"
+"I,S,N,H,L,R","MDC, MDT, MDY",No negatives
+"I,S,N,H,Q,L,R,M,K",MDB,No negatives
+"I,S,N,R,M,K",ADB,No negatives
+"I,S,N,Y,H,L,F,R,C","HDC, HDT, HDY",No negatives
+"I,S,T","ABC, ABT, ABY","No positives, No negatives"
+"I,S,T,F,C","WBC, WBT, WBY","No positives, No negatives"
+"I,S,T,L,F","WYM, WYW, WYH","No positives, No negatives"
+"I,S,T,L,F,M","WYK, WYS, WYB, WYD, WYV, WYN","No positives, No negatives"
+"I,S,T,L,F,M,P","HYK, HYS, HYB, HYD, HYV, HYN","No positives, No negatives"
+"I,S,T,L,F,M,R,W,C","WBK, WBS, WBB",No negatives
+"I,S,T,L,F,M,R,W,C,P","HBK, HBS, HBB",No negatives
+"I,S,T,L,F,P","HYC, HYT, HYY, HYM, HYW, HYH","No positives, No negatives"
+"I,S,T,L,F,R,C,P","HBC, HBT, HBY",No negatives
+"I,S,T,L,M",WYR,"No positives, No negatives"
+"I,S,T,L,M,P",HYR,"No positives, No negatives"
+"I,S,T,L,M,R,P","MBK, MBS, MBB, MBD, MBV, MBN",No negatives
+"I,S,T,L,P",HYA,"No positives, No negatives"
+"I,S,T,L,R,P","MBC, MBT, MBY, MBM, MBW, MBH",No negatives
+"I,S,T,M,R","ABK, ABS, ABB, ABD, ABV, ABN",No negatives
+"I,T","AYA, AYC, AYT, AYY, AYM, AYW, AYH","No positives, No negatives"
+"I,T,K",AHA,No negatives
+"I,T,K,L,M,Q,P",MHR,No negatives
+"I,T,K,L,Q,P",MHA,No negatives
+"I,T,K,L,R,Q,P",MNA,No negatives
+"I,T,K,R",ANA,No negatives
+"I,T,L,M,P","MYR, MYK, MYS, MYB, MYD, MYV, MYN","No positives, No negatives"
+"I,T,L,M,R,P",MBR,No negatives
+"I,T,L,R,P",MBA,No negatives
+"I,T,M,R,K",ANR,No negatives
+"I,T,N","AHC, AHT, AHY","No positives, No negatives"
+"I,T,N,S","ANC, ANT, ANY","No positives, No negatives"
+"I,T,Q,L,M,R,K,P",MNR,No negatives
+"I,V","RTA, RTC, RTT, RTY, RTM, RTW, RTH",All hydrophobic
+"I,V,E,L,K,M,Q",VWR,
+"I,V,E,L,K,Q",VWA,
+"I,V,E,M,K",RWR,No polar
+"I,V,G,E,K,L,M,R,Q",VDR,
+"I,V,G,E,L,K,R,Q",VDA,
+"I,V,G,E,M,R,K",RDR,No polar
+"I,V,G,E,R,K",RDA,No polar
+"I,V,G,L,M,R",VKR,"No polar, No negatives"
+"I,V,G,L,R",VKA,"No polar, No negatives"
+"I,V,G,M,R",RKR,"No polar, No negatives"
+"I,V,G,T,E,K,L,R,A,Q,P",VNA,
+"I,V,G,T,E,M,R,A,K",RNR,
+"I,V,G,T,E,Q,L,M,R,A,K,P",VNR,
+"I,V,G,T,E,R,A,K",RNA,
+"I,V,G,T,L,M,R,A,P",VBR,No negatives
+"I,V,G,T,L,R,A,P",VBA,No negatives
+"I,V,G,T,M,R,A",RBR,No negatives
+"I,V,G,T,R,A",RBA,No negatives
+"I,V,K,E",RWA,No polar
+"I,V,L,F,M","DTK, DTS, DTB, DTD, DTV, DTN, NTK, NTS, NTB, NTD, NTV, NTN",All hydrophobic
+"I,V,S,G,F,C","DKC, DKT, DKY","No positives, No negatives"
+"I,V,S,G,L,F,M,R,W,C","DKK, DKS, DKB, NKK, NKS, NKB",No negatives
+"I,V,S,G,L,F,R,C","NKC, NKT, NKY",No negatives
+"I,V,S,G,L,M,R","VKK, VKS, VKB, VKD, VKV, VKN",No negatives
+"I,V,S,G,L,R","VKC, VKT, VKY, VKM, VKW, VKH",No negatives
+"I,V,S,G,M,R","RKK, RKS, RKB, RKD, RKV, RKN",No negatives
+"I,V,S,G,R","RKM, RKW, RKH",No negatives
+"I,V,S,G,T,A","RBC, RBT, RBY","No positives, No negatives"
+"I,V,S,G,T,F,A,C","DBC, DBT, DBY","No positives, No negatives"
+"I,V,S,G,T,L,F,R,A,C,P","NBC, NBT, NBY",No negatives
+"I,V,S,G,T,L,M,R,A,P","VBK, VBS, VBB, VBD, VBV, VBN",No negatives
+"I,V,S,G,T,L,R,A,P","VBC, VBT, VBY, VBM, VBW, VBH",No negatives
+"I,V,S,G,T,M,R,A","RBK, RBS, RBB, RBD, RBV, RBN",No negatives
+"I,V,S,G,T,R,A","RBM, RBW, RBH",No negatives
+"I,V,S,T,F,A","DYC, DYT, DYY","No positives, No negatives"
+"I,V,S,T,L,A",DYA,"No positives, No negatives"
+"I,V,S,T,L,A,P",NYA,"No positives, No negatives"
+"I,V,S,T,L,F,A","DYM, DYW, DYH","No positives, No negatives"
+"I,V,S,T,L,F,A,P","NYC, NYT, NYY, NYM, NYW, NYH","No positives, No negatives"
+"I,V,S,T,L,F,M,A","DYK, DYS, DYB, DYD, DYV, DYN","No positives, No negatives"
+"I,V,S,T,L,F,M,A,P","NYK, NYS, NYB, NYD, NYV, NYN","No positives, No negatives"
+"I,V,S,T,L,M,A",DYR,"No positives, No negatives"
+"I,V,S,T,L,M,A,P",NYR,"No positives, No negatives"
+"I,V,S,W,G,T,L,F,M,R,A,C","DBK, DBS, DBB",No negatives
+"I,V,S,W,G,T,L,F,M,R,A,C,P","NBK, NBS, NBB",No negatives
+"I,V,T,E,A,K",RHA,
+"I,V,T,E,K,L,A,Q,P",VHA,
+"I,V,T,E,K,L,M,A,Q,P",VHR,
+"I,V,T,E,M,A,K",RHR,
+"I,V,T,L,A,P","VYA, VYC, VYT, VYY, VYM, VYW, VYH","No positives, No negatives"
+"I,V,T,L,M,A,P","VYR, VYK, VYS, VYB, VYD, VYV, VYN","No positives, No negatives"
+"I,V,T,M,A","RYR, RYK, RYS, RYB, RYD, RYV, RYN","No positives, No negatives"
+"I,Y,F,N","WWC, WWT, WWY","No positives, No negatives"
+"I,Y,N,S,T,F","WHC, WHT, WHY","No positives, No negatives"
+"I,Y,N,S,T,F,C","WNC, WNT, WNY","No positives, No negatives"
+"I,Y,S,N,F,C","WDC, WDT, WDY","No positives, No negatives"
+K,"AAA, AAG, AAR",All positives
+"K,/,N,Y",WAB,"Stop codon, No hydrophobic, No negatives"
+"K,D,N,E",RAB,No hydrophobic
+"K,E","RAA, RAG, RAR","No hydrophobic, No polar"
+"K,N",AAB,"No hydrophobic, No negatives"
+"K,S,N,R",ARB,"No hydrophobic, No negatives"
+"K,T,N",AMB,"No hydrophobic, No negatives"
+L,"CTA, CTC, CTG, CTT, CTR, CTY, CTK, CTM, CTS, CTW, CTB, CTD, CTH, CTV, CTN, TTA, TTG, TTR, YTA, YTG, YTR",All hydrophobic
+"L,/","TKA, TWA, TWG, TWR, TDA","Stop codon, No polar, No positives, No negatives"
+"L,/,M,K",WWG,"Stop codon, No polar, No negatives"
+"L,/,Q","YWA, YWG, YWR","Stop codon, No positives, No negatives"
+"L,/,R",YKA,"Stop codon, No polar, No negatives"
+"L,/,R,Q",YDA,"Stop codon, No negatives"
+"L,/,S","TBA, THA, THG, THR, TNA","Stop codon, No positives, No negatives"
+"L,/,V,E","KWA, KWG, KWR","Stop codon, No polar, No positives"
+"L,F","TTK, TTM, TTS, TTW, TTB, TTD, TTH, TTV, TTN, YTC, YTT, YTY, YTK, YTM, YTS, YTW, YTB, YTD, YTH, YTV, YTN",All hydrophobic
+"L,F,/,Y","TWK, TWM, TWS, TWW, TWB, TWD, TWH, TWV, TWN","Stop codon, No positives, No negatives"
+"L,F,R,W,C","YKK, YKS, YKB","No polar, No negatives"
+"L,F,S","TYK, TYM, TYS, TYW, TYB, TYD, TYH, TYV, TYN","No positives, No negatives"
+"L,F,S,P","YYC, YYT, YYY, YYK, YYM, YYS, YYW, YYB, YYD, YYH, YYV, YYN","No positives, No negatives"
+"L,F,V","KTK, KTM, KTS, KTW, KTB, KTD, KTH, KTV, KTN, BTC, BTT, BTY, BTK, BTM, BTS, BTW, BTB, BTD, BTH, BTV, BTN",All hydrophobic
+"L,G,V,R","SKA, SKC, SKG, SKT, SKR, SKY, SKK, SKM, SKS, SKW, SKB, SKD, SKH, SKV, SKN","No polar, No negatives"
+"L,K,M,R,Q",MDG,No negatives
+"L,M","MTG, WTG, HTG",All hydrophobic
+"L,M,R",MKG,"No polar, No negatives"
+"L,M,T,P",MYG,"No positives, No negatives"
+"L,M,T,S",WYG,"No positives, No negatives"
+"L,P","CYA, CYC, CYG, CYT, CYR, CYY, CYK, CYM, CYS, CYW, CYB, CYD, CYH, CYV, CYN","No polar, No positives, No negatives"
+"L,Q","CWA, CWG, CWR","No positives, No negatives"
+"L,Q,P","CHA, CHG, CHR","No positives, No negatives"
+"L,R","CKA, CKC, CKG, CKT, CKR, CKY, CKK, CKM, CKS, CKW, CKB, CKD, CKH, CKV, CKN","No polar, No negatives"
+"L,R,P","CBA, CBC, CBG, CBT, CBR, CBY, CBK, CBM, CBS, CBW, CBB, CBD, CBH, CBV, CBN","No polar, No negatives"
+"L,R,Q","CDA, CDG, CDR",No negatives
+"L,R,Q,P","CNA, CNG, CNR",No negatives
+"L,S","TYA, TYG, TYR","No positives, No negatives"
+"L,S,P","YYA, YYG, YYR","No positives, No negatives"
+"L,V","KTA, KTG, KTR, STA, STC, STG, STT, STR, STY, STK, STM, STS, STW, STB, STD, STH, STV, STN, BTA, BTG, BTR",All hydrophobic
+"L,V,Q,E","SWA, SWG, SWR",No positives
+M,ATG,All hydrophobic
+"M,K",AWG,"No polar, No negatives"
+"M,R",AKG,"No polar, No negatives"
+"M,R,K",ADG,"No polar, No negatives"
+"M,R,T",ABG,No negatives
+"M,T",AYG,"No positives, No negatives"
+"M,T,K",AHG,No negatives
+"M,T,K,R",ANG,No negatives
+N,"AAC, AAT, AAY",All polar
+"N,D,K,E","RAK, RAM, RAS, RAW, RAD, RAH, RAV, RAN",No hydrophobic
+"N,F,C,G,A,E,H,R,D,V,S,T,K,M,I,/,Y,L,W,Q,P","NNK, NNS, NND",Stop codon
+"N,F,C,G,E,H,R,D,V,S,T,K,I,/,Y,L,A,Q,P","NNM, NNW, NNH",Stop codon
+"N,F,C,G,E,H,R,D,V,S,T,K,M,I,/,W,Y,L,A,Q,P","NNB, NNV, NNN",Stop codon
+"N,K","AAK, AAM, AAS, AAW, AAD, AAH, AAV, AAN","No hydrophobic, No negatives"
+"N,R,K,S","ARK, ARM, ARS, ARW, ARD, ARH, ARV, ARN","No hydrophobic, No negatives"
+"N,S,H,K,R,Q","MRK, MRM, MRS, MRW, MRD, MRH, MRV, MRN","No hydrophobic, No negatives"
+"N,S,T,H,Q,R,K,P","MVK, MVM, MVS, MVW, MVB, MVD, MVH, MVV, MVN","No hydrophobic, No negatives"
+"N,S,T,H,R,P","MVC, MVT, MVY","No hydrophobic, No negatives"
+"N,S,T,R,K","AVK, AVM, AVS, AVW, AVB, AVD, AVH, AVV, AVN","No hydrophobic, No negatives"
+"N,S,Y,T,H,R,C,P","HVC, HVT, HVY","No hydrophobic, No negatives"
+"N,T,H,K,Q,P","MMK, MMM, MMS, MMW, MMD, MMH, MMV, MMN","No hydrophobic, No negatives"
+"N,T,H,Q,K,P",MMB,"No hydrophobic, No negatives"
+"N,T,K","AMK, AMM, AMS, AMW, AMD, AMH, AMV, AMN","No hydrophobic, No negatives"
+P,"CCA, CCC, CCG, CCT, CCR, CCY, CCK, CCM, CCS, CCW, CCB, CCD, CCH, CCV, CCN","No hydrophobic, No polar, No positives, No negatives"
+"P,T,S,R","MSC, MST, MSY","No hydrophobic, No negatives"
+Q,"CAA, CAG, CAR",All polar
+"Q,/,K","HAA, HAG, HAR","Stop codon, No hydrophobic, No negatives"
+"Q,/,K,E","NAA, NAG, NAR","Stop codon, No hydrophobic"
+"Q,/,R,K",HRA,"Stop codon, No hydrophobic, No negatives"
+"Q,E","SAA, SAG, SAR","No hydrophobic, No positives"
+"Q,K","MAA, MAG, MAR","No hydrophobic, No negatives"
+"Q,K,E","VAA, VAG, VAR",No hydrophobic
+"Q,L,M,K",MWG,No negatives
+"Q,P","CMA, CMG, CMR","No hydrophobic, No positives, No negatives"
+"Q,R,K","MRA, MRG, MRR","No hydrophobic, No negatives"
+"Q,T,K,P","MMA, MMG, MMR","No hydrophobic, No negatives"
+R,"AGA, AGG, AGR, CGA, CGC, CGG, CGT, CGR, CGY, CGK, CGM, CGS, CGW, CGB, CGD, CGH, CGV, CGN, MGA, MGG, MGR",All positives
+"R,K","ARA, ARG, ARR",All positives
+"R,P","CSA, CSC, CSG, CST, CSR, CSY, CSK, CSM, CSS, CSW, CSB, CSD, CSH, CSV, CSN","No hydrophobic, No polar, No negatives"
+"R,Q","CRA, CRG, CRR","No hydrophobic, No negatives"
+"R,Q,P","CVA, CVG, CVR","No hydrophobic, No negatives"
+"R,S","AGK, AGM, AGS, AGW, AGB, AGD, AGH, AGV, AGN, MGC, MGT, MGY, MGK, MGM, MGS, MGW, MGB, MGD, MGH, MGV, MGN","No hydrophobic, No negatives"
+"R,T","ASA, ASG, ASR","No hydrophobic, No negatives"
+"R,T,P","MSA, MSG, MSR","No hydrophobic, No negatives"
+S,"AGC, AGT, AGY, TCA, TCC, TCG, TCT, TCR, TCY, TCK, TCM, TCS, TCW, TCB, TCD, TCH, TCV, TCN",All polar
+"S,G,R,A,C,P","BSC, BST, BSY",No negatives
+"S,G,R,W,C","DGK, DGS, DGB, NGK, NGS, NGB",No negatives
+"S,G,T,A,C","DSC, DST, DSY","No positives, No negatives"
+"S,G,T,R,A","RSK, RSM, RSS, RSW, RSB, RSD, RSH, RSV, RSN",No negatives
+"S,G,T,R,A,C,P","NSC, NST, NSY",No negatives
+"S,G,T,R,A,P","VSC, VST, VSY, VSK, VSM, VSS, VSW, VSB, VSD, VSH, VSV, VSN",No negatives
+"S,L,F,R,C,P","YBC, YBT, YBY",No negatives
+"S,L,F,R,W,C,P","YBK, YBS, YBB",No negatives
+"S,L,F,W,C","TBK, TBS, TBB","No positives, No negatives"
+"S,L,R,W,P",YBG,No negatives
+"S,N","ARC, ART, ARY",All polar
+"S,N,H,Q,R,K",MRB,"No hydrophobic, No negatives"
+"S,P","YCA, YCC, YCG, YCT, YCR, YCY, YCK, YCM, YCS, YCW, YCB, YCD, YCH, YCV, YCN","No hydrophobic, No positives, No negatives"
+"S,R,W,C,P","YSK, YSS, YSB",No negatives
+"S,T","WCA, WCC, WCG, WCT, WCR, WCY, WCK, WCM, WCS, WCW, WCB, WCD, WCH, WCV, WCN",All polar
+"S,T,L,M,P",HYG,"No positives, No negatives"
+"S,T,L,M,R,W",WBG,No negatives
+"S,T,L,M,R,W,P",HBG,No negatives
+"S,T,P","HCA, HCC, HCG, HCT, HCR, HCY, HCK, HCM, HCS, HCW, HCB, HCD, HCH, HCV, HCN","No hydrophobic, No positives, No negatives"
+"S,T,R,C,P","HSC, HST, HSY","No hydrophobic, No negatives"
+"S,T,R,W,C","WSK, WSS, WSB",No negatives
+"S,T,R,W,C,P","HSK, HSS, HSB",No negatives
+"S,T,R,W,P",HSG,No negatives
+"S,Y","TMC, TMT, TMY",All polar
+"S,Y,H,L,F,P","YHC, YHT, YHY",No negatives
+"S,Y,H,R,C,P","YVC, YVT, YVY","No hydrophobic, No negatives"
+T,"ACA, ACC, ACG, ACT, ACR, ACY, ACK, ACM, ACS, ACW, ACB, ACD, ACH, ACV, ACN",All polar
+"T,E,K,A,Q,P","VMA, VMG, VMR",
+"T,K","AMA, AMG, AMR","No hydrophobic, No negatives"
+"T,K,L,M,Q,P",MHG,No negatives
+"T,K,L,M,R,Q,P",MNG,No negatives
+"T,K,R","AVA, AVG, AVR","No hydrophobic, No negatives"
+"T,K,R,Q,P","MVA, MVG, MVR","No hydrophobic, No negatives"
+"T,L,M,R,P",MBG,No negatives
+"T,N","AMC, AMT, AMY",All polar
+"T,N,S","AVC, AVT, AVY",All polar
+"T,P","MCA, MCC, MCG, MCT, MCR, MCY, MCK, MCM, MCS, MCW, MCB, MCD, MCH, MCV, MCN","No hydrophobic, No positives, No negatives"
+"T,R,S","ASK, ASM, ASS, ASW, ASB, ASD, ASH, ASV, ASN","No hydrophobic, No negatives"
+"T,R,S,P","MSK, MSM, MSS, MSW, MSB, MSD, MSH, MSV, MSN","No hydrophobic, No negatives"
+"T,S","ASC, AST, ASY",All polar
+V,"GTA, GTC, GTG, GTT, GTR, GTY, GTK, GTM, GTS, GTW, GTB, GTD, GTH, GTV, GTN",All hydrophobic
+"V,A,M,T",RYG,"No positives, No negatives"
+"V,E","GWA, GWG, GWR","No polar, No positives"
+"V,E,L,A,Q,P","SHA, SHG, SHR",No positives
+"V,E,L,K,M,Q",VWG,
+"V,G,E,L,K,M,R,Q",VDG,
+"V,G,E,L,R,A,Q,P","SNA, SNG, SNR",
+"V,G,E,L,R,Q","SDA, SDG, SDR",
+"V,G,E,M,R,K",RDG,No polar
+"V,G,L,F,R,C","BKC, BKT, BKY","No polar, No negatives"
+"V,G,L,F,R,W,C","BKK, BKS, BKB","No polar, No negatives"
+"V,G,L,F,W,C","KKK, KKS, KKB","No polar, No positives, No negatives"
+"V,G,L,M,R",VKG,"No polar, No negatives"
+"V,G,L,M,R,W","DKG, NKG","No polar, No negatives"
+"V,G,L,R,A,P","SBA, SBC, SBG, SBT, SBR, SBY, SBK, SBM, SBS, SBW, SBB, SBD, SBH, SBV, SBN","No polar, No negatives"
+"V,G,L,R,W",BKG,"No polar, No negatives"
+"V,G,M,R",RKG,"No polar, No negatives"
+"V,G,T,E,K,L,M,R,A,Q,P",VNG,
+"V,G,T,E,M,R,A,K",RNG,
+"V,G,T,L,M,R,A,P",VBG,No negatives
+"V,G,T,M,R,A",RBG,No negatives
+"V,L,M","DTG, VTG, NTG",All hydrophobic
+"V,M",RTG,All hydrophobic
+"V,M,K,E",RWG,No polar
+"V,S,G,F,A,C","KBC, KBT, KBY","No positives, No negatives"
+"V,S,G,L,F,R,A,C,P","BBC, BBT, BBY",No negatives
+"V,S,L,A,P","BYA, BYG, BYR","No positives, No negatives"
+"V,S,L,F,A","KYK, KYM, KYS, KYW, KYB, KYD, KYH, KYV, KYN","No positives, No negatives"
+"V,S,L,F,A,P","BYC, BYT, BYY, BYK, BYM, BYS, BYW, BYB, BYD, BYH, BYV, BYN","No positives, No negatives"
+"V,S,T,L,M,A",DYG,"No positives, No negatives"
+"V,S,T,L,M,A,P",NYG,"No positives, No negatives"
+"V,S,W,G,L,F,A,C",KBB,"No positives, No negatives"
+"V,S,W,G,L,F,R,A,C,P","BBK, BBS, BBB",No negatives
+"V,S,W,G,L,R,A,P",BBG,No negatives
+"V,S,W,G,T,L,M,R,A",DBG,No negatives
+"V,S,W,G,T,L,M,R,A,P",NBG,No negatives
+"V,T,E,K,L,M,A,Q,P",VHG,
+"V,T,E,M,A,K",RHG,
+"V,T,L,M,A,P",VYG,"No positives, No negatives"
+W,TGG,All hydrophobic
+"W,/","TGR, TRG, TRR","Stop codon, No polar, No positives, No negatives"
+"W,/,R","YGR, WGR, HGR","Stop codon, No polar, No negatives"
+"W,/,R,K","WRG, WRR","Stop codon, No polar, No negatives"
+"W,/,R,Q","YRG, YRR","Stop codon, No negatives"
+"W,/,S","TSR, TVG, TVR","Stop codon, No positives, No negatives"
+"W,C","TGK, TGS, TGB","No polar, No positives, No negatives"
+"W,C,/","TGD, TGV, TGN","Stop codon, No polar, No positives, No negatives"
+"W,C,/,R","YGD, YGV, YGN","Stop codon, No polar, No negatives"
+"W,C,/,S","TSD, TSV, TSN","Stop codon, No positives, No negatives"
+"W,C,/,Y","TRK, TRS, TRB, TRD, TRV, TRN","Stop codon, No positives, No negatives"
+"W,C,G","KGK, KGS, KGB","No polar, No positives, No negatives"
+"W,C,G,R","BGK, BGS, BGB","No polar, No negatives"
+"W,C,R","YGK, YGS, YGB","No polar, No negatives"
+"W,C,R,S","WGK, WGS, WGB, HGK, HGS, HGB",No negatives
+"W,C,S","TSK, TSS, TSB","No positives, No negatives"
+"W,G",KGG,"No polar, No positives, No negatives"
+"W,G,R","BGG, DGG, NGG","No polar, No negatives"
+"W,L",TKG,All hydrophobic
+"W,L,/","TKR, TDG, TDR","Stop codon, No polar, No positives, No negatives"
+"W,L,/,R",YKR,"Stop codon, No polar, No negatives"
+"W,L,/,S","TBR, TNG, TNR","Stop codon, No positives, No negatives"
+"W,L,G,V",KKG,"No polar, No positives, No negatives"
+"W,L,M,R","WKG, HKG","No polar, No negatives"
+"W,L,R",YKG,"No polar, No negatives"
+"W,L,S",TBG,"No positives, No negatives"
+"W,R","YGG, WGG, HGG","No polar, No negatives"
+"W,R,S,P",YSG,No negatives
+"W,R,T,S",WSG,No negatives
+"W,S",TSG,"No positives, No negatives"
+"W,S,G,A,C","KSK, KSS, KSB","No positives, No negatives"
+"W,S,G,R,A,C,P","BSK, BSS, BSB",No negatives
+"W,S,G,R,A,P",BSG,No negatives
+"W,S,G,T,R,A",DSG,No negatives
+"W,S,G,T,R,A,C","DSK, DSS, DSB",No negatives
+"W,S,G,T,R,A,C,P","NSK, NSS, NSB",No negatives
+"W,S,G,T,R,A,P",NSG,No negatives
+"W,V,S,G,L,A",KBG,"No positives, No negatives"
+"W,V,S,G,L,F,A,C","KBK, KBS","No positives, No negatives"
+Y,"TAC, TAT, TAY",All polar
+"Y,C,S,N","WRC, WRT, WRY","No hydrophobic, No positives, No negatives"
+"Y,D,N","DAC, DAT, DAY","No hydrophobic, No positives"
+"Y,H,L,F,R,C","YDC, YDT, YDY",No negatives
+"Y,N","WAC, WAT, WAY",All polar
+"Y,N,/,K","WAK, WAM, WAS, WAW, WAD, WAH, WAV, WAN","Stop codon, No hydrophobic, No negatives"
+"Y,N,S,T,C","WVC, WVT, WVY","No hydrophobic, No positives, No negatives"
+"Y,N,S,T,H,P","HMC, HMT, HMY","No hydrophobic, No negatives"
+"Y,S,H,L,F,R,C,P","YNC, YNT, YNY",No negatives
+"Y,S,N,H,R,C","HRC, HRT, HRY","No hydrophobic, No negatives"
+"Y,T,N,S","WMC, WMT, WMY",All polar
